@@ -1,0 +1,39 @@
+<!--write a complex html contact process form that asks for e-mail,website but optional, and phone number, and address, and name, and message, and subject, and a submit button-->
+<!--link the style.css-->
+<!--link the contact.php-->
+<!--link the contact.css-->
+
+<link rel="stylesheet" href="style.css">
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>contact form</title>
+</head>
+<body>
+<form action="contact.php" method="post">
+<label for="name">Name:</label>
+<input type="text" name="name" id="name" required>
+<br>
+<label for="email">Email:</label>
+<input name="email" id="email" required>
+<br>
+<label for="phone">Phone:</label>
+<input name="phone" id="phone" required>
+<br>
+<label for="address">Address:</label>
+<input name="address" id="address" required>
+<br>
+<label for="website">Website:</label>
+<input name="website" id="website" required>
+<br>
+<label for="subject">Subject:</label>
+<input name="subject" id="subject" required>
+<br>
+<label for="message">Message:</label>
+<input name="message" id="message" required>
+<br>
+<input type="submit" name="submit" value="Submit">
+</form>
+</body>
+</html>
